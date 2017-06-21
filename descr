@@ -1,0 +1,8 @@
+always conflict with camlp4
+
+Trying to migrate away from camlp4?  This package will help
+you by always conflicting with it!  Just try
+
+    opam install no-camlp4 mypackage
+
+and watch the solver tell you what is pulling in camlp4.

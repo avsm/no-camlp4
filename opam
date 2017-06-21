@@ -1,0 +1,11 @@
+opam-version: "1.2"
+name:          "no-camlp4"
+maintainer:    "anil@recoil.org"
+homepage:      "https://github.com/ocaml/opam-repository"
+bug-reports:   "https://github.com/ocaml/opam-repository/issues"
+dev-repo:      "https://github.com/ocaml/opam-repository.git"
+doc:           "https://opam.ocaml.org"
+authors:       ["Anil Madhavapeddy"]
+build: [ ]
+depends: [ ]
+conflicts: [ "camlp4" ]
