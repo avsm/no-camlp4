@@ -1,4 +1,4 @@
-always conflict with camlp4
+## always conflict with camlp4
 
 Trying to migrate away from camlp4?  This package will help
 you by always conflicting with it!  Just try
@@ -6,3 +6,8 @@ you by always conflicting with it!  Just try
     opam install no-camlp4 mypackage
 
 and watch the solver tell you what is pulling in camlp4.
+
+There is also an opam2 shell script that lists the packages
+that have not yet been ported away from camlp4.  Just have an
+opam2 installation and run `whats-left.sh` to get a GitHub
+Markdown table.
